@@ -1,9 +1,15 @@
 table{
     border-collapse: collapse;
 }
+img{
+    border-radius: 20px;
+    position: relative;
+}
+
 td,th{
     border: 1px solid black;
-   
+    padding: 5px 15px 5px 15px;
+    text-align: center;
 }
 
 /* aplicando fonte personalizada */
@@ -11,11 +17,13 @@ td,th{
     font-size: x-large;
     background-color: rgba(126, 126, 125, 0.987);
     font-family: Balgruf;
+    
 }
 
 #fifa{
     font-size: x-large;
     font-family: EASPORTS15;
+
 }
 #hearthstone{
     color: white;
